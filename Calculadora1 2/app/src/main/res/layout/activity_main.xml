@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:rowCount="7"
+    android:columnCount="4"
+    android:background="@color/black">
+
+
+    <!-- Display -->
+    <TextView
+        android:id="@+id/display"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:layout_columnSpan="4"
+        android:layout_gravity="fill_horizontal"
+        android:gravity="end"
+        android:textSize="34sp"
+        android:padding="20dp"
+        android:background="#000000"
+        android:textColor="#ffffff" />
+
+    <!-- Top row for functions -->
+    <Button
+        android:text="AC"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_gravity="fill"
+        android:id="@+id/button_AC"
+        android:backgroundTint="#66888280"
+        android:textSize="34sp"
+        android:layout_columnWeight="1" />
+
+    <Button
+        android:text="√"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_gravity="fill"
+        android:id="@+id/button_sqr"
+        android:backgroundTint="#66888280"
+        android:textSize="34sp"
+        android:layout_columnWeight="1" />
+
+    <Button
+        android:text="^"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_gravity="fill"
+        android:id="@+id/button_exp"
+        android:backgroundTint="#66888280"
+        android:textSize="34sp"
+        android:layout_columnWeight="1" />
+
+    <Button
+        android:text="/"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_gravity="fill"
+        android:id="@+id/button_divide"
+        android:backgroundTint="#66BC510A"
+        android:textSize="34sp"
+        android:layout_columnWeight="1" />
+
+    <!-- Number and operation buttons -->
+    <Button
+        android:text="7"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_gravity="fill"
+        android:id="@+id/button_7"
+        android:backgroundTint="#66211E1E"
+        android:textSize="34sp"
+        android:layout_columnWeight="1" />
+
+    <Button
+        android:text="8"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill"
+        android:id="@+id/button_8"
+        android:backgroundTint="#66211E1E"
+        android:textSize="34sp"
+        android:layout_columnWeight="1" />
+
+    <Button
+        android:text="9"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill"
+        android:id="@+id/button_9"
+        android:backgroundTint="#66211E1E"
+        android:textSize="34sp"
+        android:layout_columnWeight="1" />
+
+    <Button
+        android:text="*"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill"
+        android:id="@+id/button_x"
+        android:backgroundTint="#66BC510A"
+        android:textSize="34sp"
+        android:layout_columnWeight="1" />
+
+    <!-- More buttons -->
+    <Button
+        android:text="4"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_gravity="fill"
+        android:id="@+id/button_4"
+        android:backgroundTint="#66211E1E"
+        android:textSize="34sp"
+        android:layout_columnWeight="1" />
+
+    <Button
+        android:text="5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill"
+        android:id="@+id/button_5"
+        android:backgroundTint="#66211E1E"
+        android:textSize="34sp"
+        android:layout_columnWeight="1" />
+
+    <Button
+        android:text="6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill"
+        android:id="@+id/button_6"
+        android:backgroundTint="#66211E1E"
+        android:textSize="34sp"
+        android:layout_columnWeight="1" />
+
+    <Button
+        android:text="-"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill"
+        android:id="@+id/button_subs"
+        android:backgroundTint="#66BC510A"
+        android:textSize="34sp"
+        android:layout_columnWeight="1" />
+
+    <!-- Bottom row buttons -->
+    <Button
+        android:text="1"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_gravity="fill"
+        android:id="@+id/button_1"
+        android:textSize="34sp"
+        android:backgroundTint="#66211E1E"
+        android:layout_columnWeight="1" />
+
+    <Button
+        android:text="2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill"
+        android:id="@+id/button_2"
+        android:backgroundTint="#66211E1E"
+        android:textSize="34sp"
+        android:layout_columnWeight="1" />
+
+    <Button
+        android:text="3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill"
+        android:id="@+id/button_3"
+        android:backgroundTint="#66211E1E"
+        android:textSize="34sp"
+        android:layout_columnWeight="1" />
+
+    <Button
+        android:text="+"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill"
+        android:id="@+id/button_add"
+        android:backgroundTint="#66BC510A"
+        android:textSize="34sp"
+        android:layout_columnWeight="1" />
+
+    <!-- Bottom most row -->
+    <Button
+        android:text="("
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_gravity="fill"
+        android:id="@+id/button_parizq"
+        android:backgroundTint="#66888280"
+        android:textSize="34sp"
+        android:layout_columnWeight="1" />
+
+    <Button
+        android:text="0"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill"
+        android:id="@+id/button_0"
+        android:backgroundTint="#66211E1E"
+        android:textSize="34sp"
+        android:layout_columnWeight="1" />
+
+    <Button
+        android:text=")"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill"
+        android:id="@+id/button_parder"
+        android:backgroundTint="#66888280"
+        android:textSize="34sp"
+        android:layout_columnWeight="1" />
+
+    <Button
+        android:text="="
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill"
+        android:id="@+id/button_equal"
+        android:backgroundTint="#66BC510A"
+        android:textSize="34sp"
+        android:layout_columnWeight="1" />
+
+</GridLayout>
